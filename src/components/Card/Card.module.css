@@ -1,0 +1,36 @@
+.container{
+    border: 1px solid grey;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 190px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+}
+.image{
+    width: 180px;
+}
+.buttonContainer{
+    
+    display:  flex;
+    justify-content: flex-end;
+}
+.buttonContainer button{
+    background-color: salmon;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+}
+.dataContainer{
+    text-align: center;
+    padding: 20px;
+}
+.dataContainer h2{
+    margin: 2px;
+    font-size: 17px;
+    color: darkslategrey;
+}
+.dataContainer h4{
+    margin: 2px;
+    font-size: 14px;
+    color: darkslategrey;
+}
